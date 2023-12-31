@@ -1,0 +1,33 @@
+git help----> It provide frequently user several git commands
+
+git init----> It is used to create empty repository or re-initialize existing repo
+
+git status---> This commmand will display status of current repository
+
+Staged Files--> Files which are added and they are ready to commit
+         1--->this is displayed in green color
+Un-Staged Files--> Newly created files, we need to stage then commit
+        1--->this is displayed in red color
+Un-Tracked Files--> Newly created files, we need to stage them to commit
+         1--->this is displayed in red color
+
+git add --> This command is used to add file to stagging area
+          syntax: git add <file-name>
+           syntax: git add --a ----> Add all file in stagging area
+
+git rm : This command is used to un-stage newly created file
+syntax : -->git rm --cached <file-name> again we are send in un-tracked area
+syntax : --> git rm --cached * going all file are in un-tracked area
+
+git commit --> This command is used to commit our changes to git local repo only
+When we execute commit command it will consider all file in stagging area    
+syntax-->git commit -m 'Comment Msg' --> commit file on local repo only
+
+----TO commit our files to remote repository we should execute below commands------------
+1) git remote add <repo-url>  this required only first time
+2) git push -u origin master   this is used to move changes from local to central repo
+
+git reset : it is used to unstage a file
+       Syntax: git reset HEAD <file-Name>
+
+

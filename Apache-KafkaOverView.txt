@@ -1,0 +1,11 @@
+ In today world, data is the main ingredient of internet application and       typically encompasses the following
+--> Page visits and clicks
+--> User activities
+--> Logs Monitoring
+--> Events corresponding to logins
+--> Social networking activities such as like,shares and comments
+
+**Why Messaging System ?
+Problem- Collecting all the data is not easy as data is generated from various sources in different formats
+ Solution:--One of the ways to solve this problem is to use a messaging system. Messaging system provide a seamless integration between distributed applications with help of messages.
+
